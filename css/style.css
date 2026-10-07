@@ -329,6 +329,18 @@
     object-fit: cover;
 }
 
+.core-values-list > li {
+    display: flex;
+    align-items: center;
+    min-height: 4.5rem;
+    padding: .75rem;
+    background-color: var(--light);
+}
+
+.core-values-list > li i {
+    flex: 0 0 1.25rem;
+}
+
 .service-item:hover .service-icon i {
     font-size: 60px;
 }
